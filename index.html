@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pulkata</title>
+    <link rel="icon" href="./assets/logopulkata.png">
+    <link rel="stylesheet" href="ground.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"><!--Fuentes-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"><!--Ìcono del menú desplegable-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+    
+
+    <!--https://www.bootstrapcdn.com/fontawesome/-->
+</head>
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="assets/bannerpulkata.png" alt="Logo University of live and love" width="272" height="78px"></a>
+            <div class="nav-links" id="navLinks">
+                <!--<i class="fa fa-times" aria-hidden="true"></i>-->
+                <!--ìconos-->
+                <img src="./assets/458594.png" class="fa fa-times" alt="close icon" width="20px" height="20px" onclick="hideMenu()">
+                
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./about.html">Menú</a></li>
+                    <li><a href="./course.html">Ubicación</a></li>
+                    <li><a href="./blog.html">Contacto</a></li>
+                </ul>
+
+            </div><!--Aquì termina links de barra de navegaci+on-->
+
+            <!--Ícono de menú-->
+            <img src="./assets/menu-icon-white-2.jpg" class="fa fa-bars" onclick="showMenu()" alt="menu icon" width="20px" height="20px">
+            <!--<i class="fa fa-bars"  onclick="showMenu()"></i>-->
+
+
+
+        </nav><!--Aquì termina batta de navegación-->
+    <!--Seguimos en la sección de encabezado-->
+        <div class="text-box">
+            <img src="./assets/pulke curado.png" width="50%"alt="pulquenatural">
+            <h1>Restaurante Bar</h1>
+            <h2>con ambiente familiar</h2>
+            <p>Somos un restaurante bar<br>Nos ubicamos en el corazon de Chimalpa, Estado de México</p>
+            <a href="" class="hero-btn">Sábado y domingo de 10 AM a 10 PM</a>
+        </div>
+    </section><!--Aquì termina header-->
+
+
+
+
+
+
+
+<!---tesimonials--->
+<section class="testimonials">
+    <h1>¿Qué opinan de nosotros?</h1>
+    <p>De acuerdo a usuarios de Google y <a href="https://restaurantguru.com/La-pulkata-Santiago-Chimalpa" target="_blank">RestaurantGurú</a></p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuK62U3RbaJoe-yjUiLnzERyqYFChqYkBB6w&usqp=CAU" alt="user1">
+            <div>
+                <p>Excelente lugar para tomar una rica cervesa de Barril!! El servicio de primer nivel !! Bonito lugar sin nesecidad de salir muy lejos de la cdmx !!
+                </p>
+                <h3>Mario Alberto Quezada</h3>
+            </div>
+        </div>
+
+        <div class="testimonial-col">
+            <img src="https://lh3.googleusercontent.com/a-/AFdZucqamBustrsds1GibP1lUph3ylmnlVueqzlBcADhiA=s40-c-c0x00000000-cc-rp-mo-ba3-br100" alt="user2">
+            <div>
+                <p>Buen pulque y atención ,en pie de carretera , puedes consumir en el lugar o para llevar,precios regulares.
+                </p>
+                <h3>Yaz Balderas</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--Call to action-->
+
+
+<!------------------Footer----------------------->
+<section class="footer">
+
+        <div class="icons">
+            <a href="https://www.facebook.com/LaPulkataRestauranteBar" target="_blank"><i class="bi bi-facebook"></i></a>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <a href="https://api.whatsapp.com/send/?phone=5550329184&text&type=phone_number&app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        </div>
+        <p>Made with <i class="bi bi-heart"></i> by <a href="https://github.com/alejandronjj" target="_blank">me</a> </p>
+</section>
+
+<!--JavaScript para cerrar y abrir el menú-->
+    <script>
+        var navLinks=document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+
+</body>
+</html>
